@@ -22,7 +22,7 @@ from ..helpers.utils import _format
 from . import reply_id
 
 
-@zedub.zed_cmd(pattern="حالات$")
+@sbb_b.ar_cmd(pattern="حالات$")
 async def _(event):
     zzevent = await edit_or_reply(event, "**╮•⎚ جـارِ تحميـل حـالات واتـس ...**")
     try:
